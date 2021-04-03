@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Venom1998ert19/Venom1998ert19.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Venom1998ert19/Venom1998ert19.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+   <div class="form-section">
+        <form onsubmit="return validateForm() ">
+            <label for="fname" class="hidden"></label>
+            <input placeholder="First Name" type="text" id="fname" aria-labelledby="fname" name="fname"><br><br>
+            <div class="response-fname" id="response-fname"></div>
+            <label for="lname" class="hidden"></label>
+            <input placeholder="Last Name" type="text" id="lname" aria-labelledby="lname" name="lname"><br><br>
+            <div class="response-lname" id="response-lname"></div>
+            <label for="date" class="hidden"></label>
+            <input placeholder="date('DD-MM-YYYY'), '00-00-0000'" type="text" id="date" aria-labelledby="date" name="date"><br><br>
+            <div class="response-date" id="response-date"></div>
+            <label for="username" class="hidden"></label>
+            <input placeholder="Username" type="text" id="username" aria-labelledby="username" name="username"><br><br>
+            <div class="response-username id="response-username"></div>
+            <label for="email" class="hidden"></label>
+            <input placeholder="Email Address" type="text" id="email" aria-labelledby="email" name="email"><br><br>
+            <div class="response-email" id="response-email"></div>
+            <label for="password" class="hidden"></label>
+            <input placeholder="Password" type="text" id="password" aria-labelledby="password" name="password"><br><br>
+            <div class="response-password" id="response-password"></div>
+            <label for="Confirm password" class="hidden"></label>
+            <input placeholder="Confirm Password" type="text" id="Confirm password" aria-labelledby="Confirm password" name="Confirm password"><br><br>
+            <div class="response-Confirm password" id="response-Confirm password"></div>
+            <label for="Confirm password" class="hidden"></label>
+            <input placeholder="Confirm Password" type="text" id="Confirm password" aria-labelledby="Confirm password" name="Confirm password"><br><br>
+            <div class="response-Confirm password" id="response-Confirm password"></div>
+            <label for="How do i feel?" class="hidden"></label>
+            <input placeholder="How do i feel?" type="text" id="How do i feel?" aria-labelledby="date" name="date"><br><br>
+            <div class="How do i feel?" id="response-How do i feel?"></div>
+            <label for="What is your description?" class="hidden"></label>
+            <input placeholder="What is  your description" type="text" id="What is  your description" aria-labelledby="date" name="date"><br><br>
+            <div class="How do i feel?" id="response-What is  your description"></div>
+            <input id="form-btn" class="form-btn" type="submit" value="You now have been signup" style="border: none; color: white;">
+        </form>
+    </div>
+   <script src="./app.js"></script>
+</body>
+</html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
